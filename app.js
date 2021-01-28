@@ -1,9 +1,9 @@
 var express = require('express');
 var mongoose = require('mongoose');
+
+var port = (process.env.port || 8080);
 var app = express();
-
-var port = (process.env.port || 3000);
-
+app.set("port",port);
 app.listen(port);
 
 app.set('view engine','ejs');
