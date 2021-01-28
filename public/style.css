@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0px;
+}
+.navhome
+{
+    background-color: white;
+}
+.navbrand
+{
+
+    margin-left: 40px;
+    color: black;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+}
+.uul
+{
+    margin-right: 150px;
+}
+.navkey
+{
+    color: #777777;
+    margin-right: 30px;
+    padding: 8px 10px; 
+    font-weight: 800;
+    font-size: large;
+    text-transform: capitalize;
+    transition: 5ms;
+    background-color: white;
+
+}
+.navkey:hover
+{
+    border-radius: 20px;
+    background-color: rgb(243, 235, 235);
+    border: violet;
+}
+.frontface
+{
+    background-color: white;
+    height: 740px;
+}
