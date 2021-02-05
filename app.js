@@ -16,6 +16,12 @@ app.get('/services',(req,res)=>
 {
     res.render('services');
 });
+
+app.get('/paddydisease',(req,res)=>
+{
+    res.render('paddydisease');
+});
+
 app.use((req, res) => {
     res.status(404).render('404');
   });
